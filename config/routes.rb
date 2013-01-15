@@ -1,4 +1,6 @@
 ArDataViewer::Application.routes.draw do
+  root :to => "post#view"
+  match "/posts" => "post#view"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

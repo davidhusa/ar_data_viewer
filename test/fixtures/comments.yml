@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  body: MyText
+  post: 
+  is_approved: false
+  is_poster: false
+  author: MyString
+
+two:
+  title: MyString
+  body: MyText
+  post: 
+  is_approved: false
+  is_poster: false
+  author: MyString

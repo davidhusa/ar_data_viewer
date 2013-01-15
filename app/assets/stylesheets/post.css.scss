@@ -1,0 +1,21 @@
+// Place all the styles related to the post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+div .post{
+
+}
+div .title{
+	font-size: 200%;
+	text-decoration: underline;
+}
+div .byline{
+	font-size: 60%;
+	font-style: italic;
+}
+div .body{
+	text-indent:15px;
+}

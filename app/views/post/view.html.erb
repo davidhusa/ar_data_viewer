@@ -1,0 +1,11 @@
+<h1>Posts</h1>
+<div class = "all_posts">
+<% @posts.each do |post| %>
+	<div class = "post" id = "<%= post.id %>">
+		<div class = "title"><%= post.title %></div>
+		<div class = "byline">Posted in <%=post.category.name%> by <%= post.author %> at
+			<%= post.time_of_post.strftime("%l:%M %p (%Z) on %A, %B %-d, %Y") %></div>
+		<div class = "body"><%= post.body %></div>
+	</div>
+<% end %>
+</div>
