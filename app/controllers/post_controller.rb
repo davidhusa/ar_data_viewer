@@ -1,5 +1,5 @@
 class PostController < ApplicationController
-  def view
+  def index
   	@posts = Post.all
   	respond_to do |x|
   		x.html
