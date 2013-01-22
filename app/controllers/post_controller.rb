@@ -1,4 +1,4 @@
-class PostController < ApplicationController
+class PostsController < ApplicationController
   def index
   	@posts = Post.all
   	respond_to do |x|
@@ -34,7 +34,7 @@ class PostController < ApplicationController
 	if @post.save
 		render json: @post, status: :created, location: @post
 	else
-        render json: @post.errors, status: :unprocessable_entity
+    render json: @post.errors, status: :unprocessable_entity
 	end
   end
 
